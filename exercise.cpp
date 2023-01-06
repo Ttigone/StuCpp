@@ -15,12 +15,12 @@ public:
         return temp;
     }
 };
-// Person operator+(Person & p1, Person & p2)  // NOTE 全局函数
-// {
-//     Person temp;
-//     temp.age = p1.age + p2.age;
-//     return temp;
-// }
+Person operator+(Person & p1, Person & p2)  // NOTE 全局函数
+{
+    Person temp;
+    temp.age = p1.age + p2.age;
+    return temp;
+}
 int main()
 {
     Person p1;
