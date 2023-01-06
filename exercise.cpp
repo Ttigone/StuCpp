@@ -28,10 +28,10 @@ int main()
     p1.age = p2.age = 10;
     Person p3;
     p3 = p1 + p2;
-    Person p4 = p1;
+    // Person p4 = p1;
     cout << p3.age << endl;
     cout << (p1 + p2).age << endl;
-    cout << p4.age << endl;
+    // cout << p4.age << endl;
     
     system("pause");
     return 0;
