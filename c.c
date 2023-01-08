@@ -14,7 +14,7 @@ int main()
     printf("%d\n", choice[1]);
     printf("%d\n%d\n", p, p2);
     // choice++;
-    choice[1]++;
+    // choice[1]++;
     // 3++;
     // choice[1][1]++;
 
@@ -28,5 +28,5 @@ int main()
     // p = "สนตร";
     // printf("%s", a);
     system("pause");
-    return 0;
+    return -1;
 }
