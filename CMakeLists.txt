@@ -1,0 +1,7 @@
+project(stuCpp)
+aux_source_directory(stuCpp stuCpp_SUB)
+aux_source_directory(. stuCpp_CUR)
+# cmake_minimum_required(VERSION 3.9...3.7)
+cmake_policy(SET CMP0048 NEW)
+add_executable(stuCpp ${stuCpp_Sub} ${stuCpp_CUR})
+include_directories(include)
