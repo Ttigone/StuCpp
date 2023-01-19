@@ -1,0 +1,17 @@
+[
+{
+  "directory": "E:/stuCpp/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\luogu\\p5015.cpp.obj -c E:\\stuCpp\\src\\luogu\\p5015.cpp",
+  "file": "E:/stuCpp/src/luogu/p5015.cpp"
+},
+{
+  "directory": "E:/stuCpp/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\luogu\\p5594.cpp.obj -c E:\\stuCpp\\src\\luogu\\p5594.cpp",
+  "file": "E:/stuCpp/src/luogu/p5594.cpp"
+},
+{
+  "directory": "E:/stuCpp/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\main.cpp.obj -c E:\\stuCpp\\main.cpp",
+  "file": "E:/stuCpp/main.cpp"
+}
+]

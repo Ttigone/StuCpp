@@ -4,12 +4,15 @@
     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-    
         {
             "name": "C/C++ Debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "E:/stuCpp/.vscode/exe/${fileBasenameNoExtension}.exe",
+/*           "program":"${fileDirname}\\${fileBasenameNoExtension}.exe"
+            fileDirname  -- 当前目录下.vscode    fileBasenameNoExtersion  --   main函数所在源文件无后缀  比如main.cpp 那么就寻找main.exe
+*/
+            // "program": "E:/stuCpp/.vscode/exe/${fileBasenameNoExtension}.exe",
+            "program":"${workspaceFolder}/build/main.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -28,7 +31,8 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: g++ build active file",
+            "preLaunchTask": "Build my project",
+            // "preLaunchTask": "C/C++: g++ build active file",
             "miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe"
 
         },

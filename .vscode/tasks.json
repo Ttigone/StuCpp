@@ -1,28 +1,61 @@
+// {
+//     "tasks": [
+//         {
+//             "type": "cppbuild",
+//             "label": "C/C++: g++ build active file",
+//             "command": "C:\\mingw64\\bin\\g++.exe",
+//             "args": [
+//                 "-g",
+//                 "${file}",
+//                 "-o",
+//                 "E:/stuCpp/.vscode/exe/${fileBasenameNoExtension}.exe",
+//             ],
+//             "options": {
+//                 "cwd": "${workspaceFolder}",
+//             },
+//             "problemMatcher": [
+//                 "$gcc"
+//             ],
+//             "group": {
+//                 "kind": "build",
+//                 "isDefault": true
+//             },
+//             "detail": "调试器生成的任务。"
+//         }
+//     ],
+//     "version": "2.0.0"
+// }
 {
+    "version": "2.0.0",
+    "options": {
+        "cwd": "${workspaceFolder}/build/"
+    },
+
     "tasks": [
         {
-            "type": "cppbuild",
-            "label": "C/C++: g++ build active file",
-            "command": "C:\\mingw64\\bin\\g++.exe",
+            "label": "cmake",
+            "type": "shell",
+            "command": "cmake",
             "args": [
-                "-fdiagnostics-color=always",
-                "-g",
-                "${file}",
-                "-o",
-                "E:/stuCpp/.vscode/exe/${fileBasenameNoExtension}.exe",
-            ],
-            "options": {
-                "cwd": "${workspaceFolder}",
+                ".."
+            ]
+        },
+        {
+            "label": "make",
+            "group":{
+                "kind":"build",
+                "isDefault":true
             },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "detail": "调试器生成的任务。"
+            "command": "mingw32-make.exe",
+            "args":[
+            ]
+        },
+        {
+            "label":"Build my project",
+            "dependsOn":[
+                "cmake",
+                "make"                
+            ]
         }
-    ],
-    "version": "2.0.0"
+    ]
 }
