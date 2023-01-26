@@ -1,12 +1,12 @@
 #include <iostream>
+#include <vector>
 using namespace std;
-
-#include "p5015.h"
 
 void exercise()
 {
-    
+    vector<int>nums = {5,7,7,8,8,10};
 }
+
 int main()
 {
     exercise();

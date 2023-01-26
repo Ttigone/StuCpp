@@ -9,7 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/stuCpp/main.cpp" "CMakeFiles/main.dir/main.cpp.obj" "gcc" "CMakeFiles/main.dir/main.cpp.obj.d"
-  "E:/stuCpp/src/luogu/p5015.cpp" "CMakeFiles/main.dir/src/luogu/p5015.cpp.obj" "gcc" "CMakeFiles/main.dir/src/luogu/p5015.cpp.obj.d"
+  "E:/stuCpp/src/likou/34.cc" "CMakeFiles/main.dir/src/likou/34.cc.obj" "gcc" "CMakeFiles/main.dir/src/likou/34.cc.obj.d"
+  "E:/stuCpp/src/likou/704.cc" "CMakeFiles/main.dir/src/likou/704.cc.obj" "gcc" "CMakeFiles/main.dir/src/likou/704.cc.obj.d"
+  "E:/stuCpp/src/luogu/p1055.cpp" "CMakeFiles/main.dir/src/luogu/p1055.cpp.obj" "gcc" "CMakeFiles/main.dir/src/luogu/p1055.cpp.obj.d"
   "E:/stuCpp/src/luogu/p5594.cpp" "CMakeFiles/main.dir/src/luogu/p5594.cpp.obj" "gcc" "CMakeFiles/main.dir/src/luogu/p5594.cpp.obj.d"
   )
 

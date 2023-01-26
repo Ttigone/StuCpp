@@ -152,29 +152,77 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/luogu/p5015.obj: src/luogu/p5015.cpp.obj
-.PHONY : src/luogu/p5015.obj
+src/likou/34.obj: src/likou/34.cc.obj
+.PHONY : src/likou/34.obj
 
 # target to build an object file
-src/luogu/p5015.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/luogu/p5015.cpp.obj
-.PHONY : src/luogu/p5015.cpp.obj
+src/likou/34.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/likou/34.cc.obj
+.PHONY : src/likou/34.cc.obj
 
-src/luogu/p5015.i: src/luogu/p5015.cpp.i
-.PHONY : src/luogu/p5015.i
+src/likou/34.i: src/likou/34.cc.i
+.PHONY : src/likou/34.i
 
 # target to preprocess a source file
-src/luogu/p5015.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/luogu/p5015.cpp.i
-.PHONY : src/luogu/p5015.cpp.i
+src/likou/34.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/likou/34.cc.i
+.PHONY : src/likou/34.cc.i
 
-src/luogu/p5015.s: src/luogu/p5015.cpp.s
-.PHONY : src/luogu/p5015.s
+src/likou/34.s: src/likou/34.cc.s
+.PHONY : src/likou/34.s
 
 # target to generate assembly for a file
-src/luogu/p5015.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/luogu/p5015.cpp.s
-.PHONY : src/luogu/p5015.cpp.s
+src/likou/34.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/likou/34.cc.s
+.PHONY : src/likou/34.cc.s
+
+src/likou/704.obj: src/likou/704.cc.obj
+.PHONY : src/likou/704.obj
+
+# target to build an object file
+src/likou/704.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/likou/704.cc.obj
+.PHONY : src/likou/704.cc.obj
+
+src/likou/704.i: src/likou/704.cc.i
+.PHONY : src/likou/704.i
+
+# target to preprocess a source file
+src/likou/704.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/likou/704.cc.i
+.PHONY : src/likou/704.cc.i
+
+src/likou/704.s: src/likou/704.cc.s
+.PHONY : src/likou/704.s
+
+# target to generate assembly for a file
+src/likou/704.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/likou/704.cc.s
+.PHONY : src/likou/704.cc.s
+
+src/luogu/p1055.obj: src/luogu/p1055.cpp.obj
+.PHONY : src/luogu/p1055.obj
+
+# target to build an object file
+src/luogu/p1055.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/luogu/p1055.cpp.obj
+.PHONY : src/luogu/p1055.cpp.obj
+
+src/luogu/p1055.i: src/luogu/p1055.cpp.i
+.PHONY : src/luogu/p1055.i
+
+# target to preprocess a source file
+src/luogu/p1055.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/luogu/p1055.cpp.i
+.PHONY : src/luogu/p1055.cpp.i
+
+src/luogu/p1055.s: src/luogu/p1055.cpp.s
+.PHONY : src/luogu/p1055.s
+
+# target to generate assembly for a file
+src/luogu/p1055.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/luogu/p1055.cpp.s
+.PHONY : src/luogu/p1055.cpp.s
 
 src/luogu/p5594.obj: src/luogu/p5594.cpp.obj
 .PHONY : src/luogu/p5594.obj
@@ -212,9 +260,15 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... src/luogu/p5015.obj
-	@echo ... src/luogu/p5015.i
-	@echo ... src/luogu/p5015.s
+	@echo ... src/likou/34.obj
+	@echo ... src/likou/34.i
+	@echo ... src/likou/34.s
+	@echo ... src/likou/704.obj
+	@echo ... src/likou/704.i
+	@echo ... src/likou/704.s
+	@echo ... src/luogu/p1055.obj
+	@echo ... src/luogu/p1055.i
+	@echo ... src/luogu/p1055.s
 	@echo ... src/luogu/p5594.obj
 	@echo ... src/luogu/p5594.i
 	@echo ... src/luogu/p5594.s

@@ -1,8 +1,18 @@
 [
 {
   "directory": "E:/stuCpp/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\luogu\\p5015.cpp.obj -c E:\\stuCpp\\src\\luogu\\p5015.cpp",
-  "file": "E:/stuCpp/src/luogu/p5015.cpp"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\likou\\34.cc.obj -c E:\\stuCpp\\src\\likou\\34.cc",
+  "file": "E:/stuCpp/src/likou/34.cc"
+},
+{
+  "directory": "E:/stuCpp/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\likou\\704.cc.obj -c E:\\stuCpp\\src\\likou\\704.cc",
+  "file": "E:/stuCpp/src/likou/704.cc"
+},
+{
+  "directory": "E:/stuCpp/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\luogu\\p1055.cpp.obj -c E:\\stuCpp\\src\\luogu\\p1055.cpp",
+  "file": "E:/stuCpp/src/luogu/p1055.cpp"
 },
 {
   "directory": "E:/stuCpp/build",

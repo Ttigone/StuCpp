@@ -1,4 +1,5 @@
-CMakeFiles/main.dir/src/test2.cpp.obj: E:\stuCpp\src\test2.cpp \
+CMakeFiles/main.dir/src/luogu/p1055.cpp.obj: \
+ E:\stuCpp\src\luogu\p1055.cpp E:/stuCpp/include/luogu/p1055.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/iostream \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -123,4 +124,7 @@ CMakeFiles/main.dir/src/test2.cpp.obj: E:\stuCpp\src\test2.cpp \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/basic_ios.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/ostream.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/istream \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/istream.tcc
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/istream.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cstring \
+ C:/mingw64/x86_64-w64-mingw32/include/string.h \
+ C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h

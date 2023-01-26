@@ -68,26 +68,56 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/src/luogu/p5015.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/luogu/p5015.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/src/luogu/p5015.cpp.obj: E:/stuCpp/src/luogu/p5015.cpp
-CMakeFiles/main.dir/src/luogu/p5015.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\stuCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/luogu/p5015.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/luogu/p5015.cpp.obj -MF CMakeFiles\main.dir\src\luogu\p5015.cpp.obj.d -o CMakeFiles\main.dir\src\luogu\p5015.cpp.obj -c E:\stuCpp\src\luogu\p5015.cpp
+CMakeFiles/main.dir/src/likou/34.cc.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/likou/34.cc.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/likou/34.cc.obj: E:/stuCpp/src/likou/34.cc
+CMakeFiles/main.dir/src/likou/34.cc.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\stuCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/likou/34.cc.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/likou/34.cc.obj -MF CMakeFiles\main.dir\src\likou\34.cc.obj.d -o CMakeFiles\main.dir\src\likou\34.cc.obj -c E:\stuCpp\src\likou\34.cc
 
-CMakeFiles/main.dir/src/luogu/p5015.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/luogu/p5015.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\stuCpp\src\luogu\p5015.cpp > CMakeFiles\main.dir\src\luogu\p5015.cpp.i
+CMakeFiles/main.dir/src/likou/34.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/likou/34.cc.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\stuCpp\src\likou\34.cc > CMakeFiles\main.dir\src\likou\34.cc.i
 
-CMakeFiles/main.dir/src/luogu/p5015.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/luogu/p5015.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\stuCpp\src\luogu\p5015.cpp -o CMakeFiles\main.dir\src\luogu\p5015.cpp.s
+CMakeFiles/main.dir/src/likou/34.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/likou/34.cc.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\stuCpp\src\likou\34.cc -o CMakeFiles\main.dir\src\likou\34.cc.s
+
+CMakeFiles/main.dir/src/likou/704.cc.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/likou/704.cc.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/likou/704.cc.obj: E:/stuCpp/src/likou/704.cc
+CMakeFiles/main.dir/src/likou/704.cc.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\stuCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/likou/704.cc.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/likou/704.cc.obj -MF CMakeFiles\main.dir\src\likou\704.cc.obj.d -o CMakeFiles\main.dir\src\likou\704.cc.obj -c E:\stuCpp\src\likou\704.cc
+
+CMakeFiles/main.dir/src/likou/704.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/likou/704.cc.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\stuCpp\src\likou\704.cc > CMakeFiles\main.dir\src\likou\704.cc.i
+
+CMakeFiles/main.dir/src/likou/704.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/likou/704.cc.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\stuCpp\src\likou\704.cc -o CMakeFiles\main.dir\src\likou\704.cc.s
+
+CMakeFiles/main.dir/src/luogu/p1055.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/luogu/p1055.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/luogu/p1055.cpp.obj: E:/stuCpp/src/luogu/p1055.cpp
+CMakeFiles/main.dir/src/luogu/p1055.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\stuCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/luogu/p1055.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/luogu/p1055.cpp.obj -MF CMakeFiles\main.dir\src\luogu\p1055.cpp.obj.d -o CMakeFiles\main.dir\src\luogu\p1055.cpp.obj -c E:\stuCpp\src\luogu\p1055.cpp
+
+CMakeFiles/main.dir/src/luogu/p1055.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/luogu/p1055.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\stuCpp\src\luogu\p1055.cpp > CMakeFiles\main.dir\src\luogu\p1055.cpp.i
+
+CMakeFiles/main.dir/src/luogu/p1055.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/luogu/p1055.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\stuCpp\src\luogu\p1055.cpp -o CMakeFiles\main.dir\src\luogu\p1055.cpp.s
 
 CMakeFiles/main.dir/src/luogu/p5594.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/luogu/p5594.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/luogu/p5594.cpp.obj: E:/stuCpp/src/luogu/p5594.cpp
 CMakeFiles/main.dir/src/luogu/p5594.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\stuCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/luogu/p5594.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\stuCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/luogu/p5594.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/luogu/p5594.cpp.obj -MF CMakeFiles\main.dir\src\luogu\p5594.cpp.obj.d -o CMakeFiles\main.dir\src\luogu\p5594.cpp.obj -c E:\stuCpp\src\luogu\p5594.cpp
 
 CMakeFiles/main.dir/src/luogu/p5594.cpp.i: cmake_force
@@ -102,7 +132,7 @@ CMakeFiles/main.dir/main.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/main.cpp.obj: E:/stuCpp/main.cpp
 CMakeFiles/main.dir/main.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\stuCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\stuCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/main.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cpp.obj -MF CMakeFiles\main.dir\main.cpp.obj.d -o CMakeFiles\main.dir\main.cpp.obj -c E:\stuCpp\main.cpp
 
 CMakeFiles/main.dir/main.cpp.i: cmake_force
@@ -115,21 +145,25 @@ CMakeFiles/main.dir/main.cpp.s: cmake_force
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/src/luogu/p5015.cpp.obj" \
+"CMakeFiles/main.dir/src/likou/34.cc.obj" \
+"CMakeFiles/main.dir/src/likou/704.cc.obj" \
+"CMakeFiles/main.dir/src/luogu/p1055.cpp.obj" \
 "CMakeFiles/main.dir/src/luogu/p5594.cpp.obj" \
 "CMakeFiles/main.dir/main.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main.exe: CMakeFiles/main.dir/src/luogu/p5015.cpp.obj
+main.exe: CMakeFiles/main.dir/src/likou/34.cc.obj
+main.exe: CMakeFiles/main.dir/src/likou/704.cc.obj
+main.exe: CMakeFiles/main.dir/src/luogu/p1055.cpp.obj
 main.exe: CMakeFiles/main.dir/src/luogu/p5594.cpp.obj
 main.exe: CMakeFiles/main.dir/main.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: CMakeFiles/main.dir/linkLibs.rsp
 main.exe: CMakeFiles/main.dir/objects1
 main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\stuCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\stuCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
