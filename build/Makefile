@@ -152,6 +152,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/likou/26.obj: src/likou/26.cpp.obj
+.PHONY : src/likou/26.obj
+
+# target to build an object file
+src/likou/26.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/likou/26.cpp.obj
+.PHONY : src/likou/26.cpp.obj
+
+src/likou/26.i: src/likou/26.cpp.i
+.PHONY : src/likou/26.i
+
+# target to preprocess a source file
+src/likou/26.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/likou/26.cpp.i
+.PHONY : src/likou/26.cpp.i
+
+src/likou/26.s: src/likou/26.cpp.s
+.PHONY : src/likou/26.s
+
+# target to generate assembly for a file
+src/likou/26.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/likou/26.cpp.s
+.PHONY : src/likou/26.cpp.s
+
 src/likou/34.obj: src/likou/34.cc.obj
 .PHONY : src/likou/34.obj
 
@@ -175,6 +199,30 @@ src/likou/34.s: src/likou/34.cc.s
 src/likou/34.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/likou/34.cc.s
 .PHONY : src/likou/34.cc.s
+
+src/likou/455.obj: src/likou/455.cpp.obj
+.PHONY : src/likou/455.obj
+
+# target to build an object file
+src/likou/455.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/likou/455.cpp.obj
+.PHONY : src/likou/455.cpp.obj
+
+src/likou/455.i: src/likou/455.cpp.i
+.PHONY : src/likou/455.i
+
+# target to preprocess a source file
+src/likou/455.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/likou/455.cpp.i
+.PHONY : src/likou/455.cpp.i
+
+src/likou/455.s: src/likou/455.cpp.s
+.PHONY : src/likou/455.s
+
+# target to generate assembly for a file
+src/likou/455.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/likou/455.cpp.s
+.PHONY : src/likou/455.cpp.s
 
 src/likou/704.obj: src/likou/704.cc.obj
 .PHONY : src/likou/704.obj
@@ -260,9 +308,15 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/likou/26.obj
+	@echo ... src/likou/26.i
+	@echo ... src/likou/26.s
 	@echo ... src/likou/34.obj
 	@echo ... src/likou/34.i
 	@echo ... src/likou/34.s
+	@echo ... src/likou/455.obj
+	@echo ... src/likou/455.i
+	@echo ... src/likou/455.s
 	@echo ... src/likou/704.obj
 	@echo ... src/likou/704.i
 	@echo ... src/likou/704.s

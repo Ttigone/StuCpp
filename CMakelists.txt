@@ -2,19 +2,19 @@ cmake_minimum_required(VERSION 3.20)
 
 project(EXERCISEOFCPP)
 
-# 在src中搜索的源文件保存至 SRC_SUB
-aux_source_directory(src/likou SRC_SUB)
-aux_source_directory(src/niuke SRC_SUB)
-aux_source_directory(src/luogu SRC_SUB)
+# Add the source file and name it SRC SUB
+aux_source_directory(./src/likou SRC_SUB)
+aux_source_directory(./src/niuke SRC_SUB)
+aux_source_directory(./src/luogu SRC_SUB)
 
-# 在其他文件夹下搜索源文件保存至 SRC_CUB
+
 aux_source_directory(. SRC_CUR)
 
 
-# 指定使用源文件src 生成可执行程序 main 后面两个是依赖--取变量的值
+# 指锟斤拷使锟斤拷源锟侥硷拷src 锟斤拷锟缴匡拷执锟叫筹拷锟斤拷 main 锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷--取锟斤拷锟斤拷锟斤拷值
 add_executable(main ${SRC_SUB} ${SRC_CUR})
 
-# 设置包含的头文件目录
-include_directories(include/likou)
-include_directories(include/luogu)
-include_directories(include/niuke)
+# 锟斤拷锟矫帮拷锟斤拷锟斤拷头锟侥硷拷目录
+include_directories(./include/likou)
+include_directories(./include/luogu)
+include_directories(./include/niuke)
