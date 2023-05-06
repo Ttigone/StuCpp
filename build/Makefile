@@ -152,6 +152,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/likou/135.obj: src/likou/135.cpp.obj
+.PHONY : src/likou/135.obj
+
+# target to build an object file
+src/likou/135.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/likou/135.cpp.obj
+.PHONY : src/likou/135.cpp.obj
+
+src/likou/135.i: src/likou/135.cpp.i
+.PHONY : src/likou/135.i
+
+# target to preprocess a source file
+src/likou/135.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/likou/135.cpp.i
+.PHONY : src/likou/135.cpp.i
+
+src/likou/135.s: src/likou/135.cpp.s
+.PHONY : src/likou/135.s
+
+# target to generate assembly for a file
+src/likou/135.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/likou/135.cpp.s
+.PHONY : src/likou/135.cpp.s
+
 src/likou/26.obj: src/likou/26.cpp.obj
 .PHONY : src/likou/26.obj
 
@@ -175,6 +199,30 @@ src/likou/26.s: src/likou/26.cpp.s
 src/likou/26.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/likou/26.cpp.s
 .PHONY : src/likou/26.cpp.s
+
+src/likou/283.obj: src/likou/283.cpp.obj
+.PHONY : src/likou/283.obj
+
+# target to build an object file
+src/likou/283.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/likou/283.cpp.obj
+.PHONY : src/likou/283.cpp.obj
+
+src/likou/283.i: src/likou/283.cpp.i
+.PHONY : src/likou/283.i
+
+# target to preprocess a source file
+src/likou/283.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/likou/283.cpp.i
+.PHONY : src/likou/283.cpp.i
+
+src/likou/283.s: src/likou/283.cpp.s
+.PHONY : src/likou/283.s
+
+# target to generate assembly for a file
+src/likou/283.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/likou/283.cpp.s
+.PHONY : src/likou/283.cpp.s
 
 src/likou/34.obj: src/likou/34.cc.obj
 .PHONY : src/likou/34.obj
@@ -308,9 +356,15 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/likou/135.obj
+	@echo ... src/likou/135.i
+	@echo ... src/likou/135.s
 	@echo ... src/likou/26.obj
 	@echo ... src/likou/26.i
 	@echo ... src/likou/26.s
+	@echo ... src/likou/283.obj
+	@echo ... src/likou/283.i
+	@echo ... src/likou/283.s
 	@echo ... src/likou/34.obj
 	@echo ... src/likou/34.i
 	@echo ... src/likou/34.s

@@ -1,8 +1,18 @@
 [
 {
   "directory": "E:/stuCpp/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\likou\\135.cpp.obj -c E:\\stuCpp\\src\\likou\\135.cpp",
+  "file": "E:/stuCpp/src/likou/135.cpp"
+},
+{
+  "directory": "E:/stuCpp/build",
   "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\likou\\26.cpp.obj -c E:\\stuCpp\\src\\likou\\26.cpp",
   "file": "E:/stuCpp/src/likou/26.cpp"
+},
+{
+  "directory": "E:/stuCpp/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\likou\\283.cpp.obj -c E:\\stuCpp\\src\\likou\\283.cpp",
+  "file": "E:/stuCpp/src/likou/283.cpp"
 },
 {
   "directory": "E:/stuCpp/build",

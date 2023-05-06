@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/main.cpp.obj"
   "CMakeFiles/main.dir/main.cpp.obj.d"
+  "CMakeFiles/main.dir/src/likou/135.cpp.obj"
+  "CMakeFiles/main.dir/src/likou/135.cpp.obj.d"
   "CMakeFiles/main.dir/src/likou/26.cpp.obj"
   "CMakeFiles/main.dir/src/likou/26.cpp.obj.d"
+  "CMakeFiles/main.dir/src/likou/283.cpp.obj"
+  "CMakeFiles/main.dir/src/likou/283.cpp.obj.d"
   "CMakeFiles/main.dir/src/likou/34.cc.obj"
   "CMakeFiles/main.dir/src/likou/34.cc.obj.d"
   "CMakeFiles/main.dir/src/likou/455.cpp.obj"

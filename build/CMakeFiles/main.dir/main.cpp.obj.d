@@ -128,4 +128,5 @@ CMakeFiles/main.dir/main.cpp.obj: E:\stuCpp\main.cpp \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_uninitialized.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_vector.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_bvector.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/vector.tcc
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/vector.tcc \
+ E:/stuCpp/include/likou/283.h
