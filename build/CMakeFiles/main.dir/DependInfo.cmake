@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/stuCpp/src/likou/704.cc" "CMakeFiles/main.dir/src/likou/704.cc.obj" "gcc" "CMakeFiles/main.dir/src/likou/704.cc.obj.d"
   "E:/stuCpp/src/luogu/p1055.cpp" "CMakeFiles/main.dir/src/luogu/p1055.cpp.obj" "gcc" "CMakeFiles/main.dir/src/luogu/p1055.cpp.obj.d"
   "E:/stuCpp/src/luogu/p5594.cpp" "CMakeFiles/main.dir/src/luogu/p5594.cpp.obj" "gcc" "CMakeFiles/main.dir/src/luogu/p5594.cpp.obj.d"
+  "E:/stuCpp/src/niuke/add.cpp" "CMakeFiles/main.dir/src/niuke/add.cpp.obj" "gcc" "CMakeFiles/main.dir/src/niuke/add.cpp.obj.d"
   )
 
 # Targets to which this target links.

@@ -31,6 +31,11 @@
 },
 {
   "directory": "E:/stuCpp/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\niuke\\add.cpp.obj -c E:\\stuCpp\\src\\niuke\\add.cpp",
+  "file": "E:/stuCpp/src/niuke/add.cpp"
+},
+{
+  "directory": "E:/stuCpp/build",
   "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\luogu\\p1055.cpp.obj -c E:\\stuCpp\\src\\luogu\\p1055.cpp",
   "file": "E:/stuCpp/src/luogu/p1055.cpp"
 },

@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/luogu/p1055.cpp.obj.d"
   "CMakeFiles/main.dir/src/luogu/p5594.cpp.obj"
   "CMakeFiles/main.dir/src/luogu/p5594.cpp.obj.d"
+  "CMakeFiles/main.dir/src/niuke/add.cpp.obj"
+  "CMakeFiles/main.dir/src/niuke/add.cpp.obj.d"
   "libmain.dll.a"
   "main.exe"
   "main.exe.manifest"

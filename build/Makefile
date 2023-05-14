@@ -344,6 +344,30 @@ src/luogu/p5594.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/luogu/p5594.cpp.s
 .PHONY : src/luogu/p5594.cpp.s
 
+src/niuke/add.obj: src/niuke/add.cpp.obj
+.PHONY : src/niuke/add.obj
+
+# target to build an object file
+src/niuke/add.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/niuke/add.cpp.obj
+.PHONY : src/niuke/add.cpp.obj
+
+src/niuke/add.i: src/niuke/add.cpp.i
+.PHONY : src/niuke/add.i
+
+# target to preprocess a source file
+src/niuke/add.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/niuke/add.cpp.i
+.PHONY : src/niuke/add.cpp.i
+
+src/niuke/add.s: src/niuke/add.cpp.s
+.PHONY : src/niuke/add.s
+
+# target to generate assembly for a file
+src/niuke/add.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/niuke/add.cpp.s
+.PHONY : src/niuke/add.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -380,6 +404,9 @@ help:
 	@echo ... src/luogu/p5594.obj
 	@echo ... src/luogu/p5594.i
 	@echo ... src/luogu/p5594.s
+	@echo ... src/niuke/add.obj
+	@echo ... src/niuke/add.i
+	@echo ... src/niuke/add.s
 .PHONY : help
 
 
