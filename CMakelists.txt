@@ -11,7 +11,6 @@ aux_source_directory(./src/luogu SRC_SUB)
 aux_source_directory(. SRC_CUR)
 
 
-# ָ��ʹ��Դ�ļ�src ���ɿ�ִ�г��� main ��������������--ȡ������ֵ
 add_executable(main ${SRC_SUB} ${SRC_CUR})
 
 # ���ð�����ͷ�ļ�Ŀ¼

@@ -132,7 +132,8 @@
     "C_Cpp.clang_format_style": "Google",
     "files.associations": {
         "iosfwd": "cpp",
-        "fstream": "cpp"
+        "fstream": "cpp",
+        "iostream": "cpp"
     },
 
 }

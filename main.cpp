@@ -2,7 +2,14 @@
 #include <vector>
 #include <string>
 #include <algorithm>
+#include <cstdio>
 using namespace std;
+using i32 = long long;
+class a {
+public:
+    vector<string> v;
+    i32 n;
+};
 int main() 
 {
     // int n;
@@ -36,26 +43,10 @@ int main()
     // for (auto i : k) {
     //     cout << i << " ";
     // }
+    
+
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);  
-    int N = 0;
-    cin >> N;
-    vector<int> k(N);
-
-    for (int i = 0; i < N; ++i) {
-        cin >> k[i];
-    }
-
-    cout << k[0];
-    for (int i = 1; i < N; ++i) {
-        while (k[0] < k[i]) {
-            cout << " " << ++k[0];
-        }
-        while (k[i] < k[0]) {
-            cout << " " << --k[0];
-        }
-    }
-
     system("pause");
     return 0;
 }
