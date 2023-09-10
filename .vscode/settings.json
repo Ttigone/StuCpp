@@ -5,7 +5,7 @@
     "files.autoSaveDelay": 1000,
     "debug.onTaskErrors": "showErrors",
     // ColorTheme
-    "workbench.colorTheme": "Evondev Dracula Darker Contrast",
+    "workbench.colorTheme": "Moegi Dark Vitesse",
     // Font Settings
     "editor.fontFamily": "'Cascadia Code', '宋体'",
     "debug.console.fontFamily": "'Cascadia Code', '宋体'",
@@ -18,7 +18,6 @@
     "workbench.iconTheme": "material-icon-theme",
     "vsicons.presets.jsOfficial": true,
     "vsicons.presets.tsOfficial": true,
-    "workbench.productIconTheme": "fluent-icons",
     // Product Icon
     // Better Comments
     "better-comments.tags": [
@@ -86,10 +85,10 @@
     // Color Highlight
     // Error Lens
     "workbench.colorCustomizations": {
-        "errorLens.errorForeground": "#ff0000", // 对应 BUG 和 FIXME
-        "errorLens.warningForeground": "#fa973a", // 对应 HACK 和 TODO
-        "errorLens.infoForeground": "#00b7e4", // 对应 NOTE
-        "errorLens.hintForeground": "#2faf64" // 对应 HINT
+        "errorLens.errorForeground": "#ff0000",
+        "errorLens.warningForeground": "#fa973a",
+        "errorLens.infoForeground": "#00b7e4",
+        "errorLens.hintForeground": "#2faf64"
     },
     // Code Runner
     "code-runner.saveAllFilesBeforeRun": true,
@@ -133,8 +132,23 @@
     "files.associations": {
         "iosfwd": "cpp",
         "fstream": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "string_view": "cpp",
+        "cmath": "cpp",
+        "array": "cpp",
+        "*.tcc": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "memory": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "sstream": "cpp",
+        "streambuf": "cpp",
+        "functional": "cpp",
+        "tuple": "cpp"
     },
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "aiXcoder.showTrayIcon": true,
 
 }
 

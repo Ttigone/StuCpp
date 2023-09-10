@@ -3,50 +3,36 @@
 #include <string>
 #include <algorithm>
 #include <cstdio>
+#include <chrono>
+#include <cmath>
+
+
+#include "include/likou/1588.h"
+
 using namespace std;
-using i32 = long long;
-class a {
-public:
-    vector<string> v;
-    i32 n;
-};
+
+
+
 int main() 
 {
-    // int n;
-    // vector<int> k(n);
-    // for (int i = 0; i < n; ++i) {
-    //     int s;
-    //     cin >> s;
-    //     k.push_back(s);
-    // }
-    // int j;
-    // for (int i = 0; i < n - 1; i += j) {
-    //     int t = k[i + 1];
-    //     j = 1; // 没有改变就是往后移动一位
-    //     if (k[i] < t - 1) { // 插入元素    递增
-    //         int temp = k[i];
-    //         j = t - 1 - k[i];   // 插入元素的个数
-    //         int m = i + 1;   // 插入开始的位置
-    //         for (auto v = k.begin(); j > 0; --j, ++m) {
-    //             k.insert(v + m, ++temp);
-    //         }
-    //         int record = i + j;//  记录下一个开始的位置
-    //     } else if (k[i] > t + 1) {  // 前 大于 后   递减
-    //         int temp2 = k[i];
-    //         j = k[i] - t - 1;
-    //         int m2 = i + 1;
-    //         for (auto v = k.begin(); j > 0; --j, ++m2) {
-    //             k.insert(v + m2, --temp2);
-    //         }
-    //     }
-    // }
-    // for (auto i : k) {
-    //     cout << i << " ";
-    // }
-    
+    auto start = std::chrono::high_resolution_clock::now();
 
-    std::ios::sync_with_stdio(false);
-    std::cin.tie(nullptr);  
-    system("pause");
+
+    Solution s;
+    vector<int> a = {10, 11, 12};
+    cout << s.sumOddLengthSubarrays(a);
+
+
+
+
+       
+
+
+    auto end = std::chrono::high_resolution_clock::now();
+    auto runTime = std::chrono::duration_cast<std::chrono::microseconds>(end - start);
+
+    cout << endl;
+    std::cout << "run time: " << runTime.count() << "us" << endl;
+
     return 0;
 }

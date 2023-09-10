@@ -1,6 +1,6 @@
-#include "26.h"
+#include "../../include/likou/26.h"
 
-    int removeDuplicates(vector<int>& nums) {
+    int Solution::removeDuplicates(vector<int>& nums) {
         int size = nums.size();
         for (int i = 0; i < size; ++i) {
             int fast_point = i + 1;

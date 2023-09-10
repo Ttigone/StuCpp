@@ -1,19 +1,27 @@
-cmake_minimum_required(VERSION 3.25)
+cmake_minimum_required(VERSION 3.24)
 
-project(EXERCISEOFCPP)
-
-# Add the source file and name it SRC SUB
-aux_source_directory(./src/likou SRC_SUB)
-aux_source_directory(./src/niuke SRC_SUB)
-aux_source_directory(./src/luogu SRC_SUB)
+# set projact name
+project(exercise)
 
 
-aux_source_directory(. SRC_CUR)
+# All files under src are set to compile
+set(SOURCES
+    ${PROJECT_SOURCE_DIR}/src/likou/1.cpp
+    ${PROJECT_SOURCE_DIR}/src/likou/66.cpp
+    ${PROJECT_SOURCE_DIR}/src/likou/7.cpp
+    ${PROJECT_SOURCE_DIR}/src/likou/1588.cpp
+)
 
+# add executable file 
+# main.cpp  and  src/
+add_executable(exerciseForCpp main.cpp ${SOURCES})
 
-add_executable(main ${SRC_SUB} ${SRC_CUR})
+# Adds the.h header of the response to the executed.cpp file
+target_include_directories(exerciseForCpp
+    PRIVATE
+        ${PROJECT_SOURCE_DIR}/include/likou/1.h
+        ${PROJECT_SOURCE_DIR}/include/likou/66.h
+        ${PROJECT_SOURCE_DIR}/include/likou/7.h
+        ${PROJECT_SOURCE_DIR}/include/likou/1588.h
+)
 
-# ���ð�����ͷ�ļ�Ŀ¼
-include_directories(./include/likou)
-include_directories(./include/luogu)
-include_directories(./include/niuke)
